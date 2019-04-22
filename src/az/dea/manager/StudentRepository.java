@@ -17,7 +17,6 @@ public class StudentRepository extends DataManager {
                 student.setName(resultSet.getString("name"));
                 student.setSurname(resultSet.getString("surname"));
                 return student;
-
             }
         }catch (Exception e){
             e.printStackTrace();
